@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Farsan|Pacifico');
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+  font-family: 'Farsan', cursive !important;
+}
+body{
+  background: #bcb3ae;
+  color: #fcfbf3;
+}
+h1 {
+/*    background: #00ff00;*/
+    font-size: 70px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-shadow: 5px 5px 5px gray;
+    font-family: 'Pacifico', cursive !important;
+}
+h2 {
+  padding-top: 40px;
+  width: 100%;
+  margin: auto;
+  font-size: 45px;
+  text-shadow: 2px #000;
+  color: gray;
+}
+abbr {
+  color: red;
+  text-decoration: none;
+}
+.intro{
+  background: url(http://thespiritscience.net/wp-content/uploads/2016/03/zen-garden-3-cropped.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+header {
+  float: left;
+  height: auto;
+  width: 35%;
+  padding: 30px 5px;
+  border: 5px solid rgba(0,0,0,0.7);
+  display: block;
+}
+
+.summary {
+  font-size: 34px;
+  color: #000;
+  width: 52%;
+  float: left;
+  padding: 10px 65px;
+}
+
+.intro:before{
+  content: <iframe width="560" height="315" src="https://www.youtube.com/embed/89sHWbv5_jk" frameborder="0" allowfullscreen></iframe>;
+}
+
+p {
+  display: block;
+}

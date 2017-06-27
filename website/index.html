@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BOX</title>
+<style>
+@keyframes color-change {
+  0%{
+    background-color: red;
+  }
+  100%{
+    background-color: blue;
+  }
+}
+#box{
+  animation-name: color-change;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 100;
+  animation-direction: alternate-reverse;
+  font-size: 70px;
+}
+@media only screen and (min-width:320px){
+  @keyframes color-change {
+    0%{
+      background-color: yellow;
+    }
+    100%{
+      background-color: black;
+    }
+  }
+  #box{
+    font-size: 30px;
+  }
+
+}
+#box1 {
+    width: 100px;
+    padding: 10px;
+    border: 5px solid #000000;
+    float: left;
+    margin: 10px;
+    background: blue;
+}
+.boxes{
+  float: left;
+}
+</style>
+</head>
+<body>
+<div id="box1" class="boxes">
+  This box number 1
+</div>
+<div id="box2" class="boxes">
+  This box number 2
+</div>
+
+<div id="box3" class="boxes">
+  This box number 3
+</div>
+</body>
+</html>
